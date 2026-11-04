@@ -1,0 +1,6 @@
+- name: Hello World  ( secure )
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "BENS says Hello to the World!"
